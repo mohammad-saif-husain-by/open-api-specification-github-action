@@ -1,3 +1,3 @@
 #!/bin/sh -l
 
-echo "hello $1"
+echo "npx @redocly/openapi-cli $1 $2" | sh
